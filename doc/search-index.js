@@ -1,5 +1,5 @@
 var searchIndex = JSON.parse('{\
-"algorithm":{"doc":"","t":[0,0,5,5],"n":["divide_and_conquer","dynamic_programming","max_subarray","max_subarray"],"q":["algorithm","","algorithm::divide_and_conquer","algorithm::dynamic_programming"],"d":["Divide-and-Conquer","","",""],"i":[0,0,0,0],"f":[null,null,[[["vec",3]]],[[["vec",3]]]],"p":[]},\
+"algorithm":{"doc":"","t":[0,0,5,5],"n":["divide_and_conquer","dynamic_programming","max_subarray","max_subarray"],"q":["algorithm","","algorithm::divide_and_conquer","algorithm::dynamic_programming"],"d":["Divide-and-Conquer","","Find maxinum nonempty subarray whose sum is largest.","Find maxinum nonempty subarry whose sum if largest"],"i":[0,0,0,0],"f":[null,null,[[["vec",3]]],[[["vec",3]]]],"p":[]},\
 "asm":{"doc":"","t":[],"n":[],"q":[],"d":[],"i":[],"f":[],"p":[]},\
 "compiler":{"doc":"","t":[],"n":[],"q":[],"d":[],"i":[],"f":[],"p":[]},\
 "database":{"doc":"","t":[],"n":[],"q":[],"d":[],"i":[],"f":[],"p":[]},\

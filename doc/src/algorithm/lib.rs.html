@@ -31,13 +31,6 @@
 <span id="26">26</span>
 <span id="27">27</span>
 <span id="28">28</span>
-<span id="29">29</span>
-<span id="30">30</span>
-<span id="31">31</span>
-<span id="32">32</span>
-<span id="33">33</span>
-<span id="34">34</span>
-<span id="35">35</span>
 </pre><pre class="rust"><code><span class="attribute">#[<span class="ident">cfg</span>(<span class="ident">test</span>)]</span>
 <span class="kw">mod</span> <span class="ident">tests</span> {
     <span class="attribute">#[<span class="ident">test</span>]</span>
@@ -57,20 +50,13 @@
     <span class="doccomment">//! ,just solve the subproblems in a straightforward manner.</span>
     <span class="doccomment">//! - **Combine** the solutions to the subproblems into the solution for the original problem.</span>
 
-    <span class="doccomment">/// Find maxinum nonempty subarray whose sum is largest.</span>
-    <span class="doccomment">/// </span>
-    <span class="doccomment">/// Let’s think about how we might solve the maximum-subarray problem using</span>
-    <span class="doccomment">/// the divide-and-conquer technique. Suppose we want to find a maximum subarray of the subarray </span>
-    <span class="doccomment">/// A[low..high]. Divide-and-conquer suggests that we divide</span>
-    <span class="doccomment">/// the subarray into two subarrays of as equal size as possible. That is, we find</span>
-    <span class="doccomment">/// the midpoint, say mid, of the subarray, and consider the subarrays A[low..mid]</span>
-    <span class="doccomment">/// and A[mid+1..high]</span>
+    
     <span class="kw">pub</span> <span class="kw">use</span> <span class="ident"><span class="kw">super</span>::implement::part1::max_subarray::max_subarray_with_divide_and_conquer</span> <span class="kw">as</span> <span class="ident">max_subarray</span>;
 }
 
 
 <span class="kw">pub</span> <span class="kw">mod</span> <span class="ident">dynamic_programming</span> {
-    <span class="doccomment">/// Find maxinum nonempty subarry whose sum if largest</span>
+    
     <span class="kw">pub</span> <span class="kw">use</span> <span class="ident"><span class="kw">super</span>::implement::part1::max_subarray::max_subarray_with_dp</span> <span class="kw">as</span> <span class="ident">max_subarray</span>;
 }</code></pre></div>
 </section></div></main><div id="rustdoc-vars" data-root-path="../../" data-current-crate="algorithm" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.62.0-nightly (6dd68402c 2022-05-11)" ></div>

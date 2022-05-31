@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["max_subarray",""]]});
+initSidebarItems({"fn":[["max_subarray","Find maxinum nonempty subarray whose sum is largest."]]});
