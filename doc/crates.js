@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["algorithm","asm","compiler","database","network","os","pctheory","rustl","software","sync"];

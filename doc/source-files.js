@@ -1,0 +1,12 @@
+var N = null;var sourcesIndex = {};
+sourcesIndex["algorithm"] = {"name":"","dirs":[{"name":"implement","files":["mod.rs","part1.rs"]}],"files":["lib.rs"]};
+sourcesIndex["asm"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["compiler"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["database"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["network"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["os"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["pctheory"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["rustl"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["software"] = {"name":"","files":["lib.rs"]};
+sourcesIndex["sync"] = {"name":"","files":["lib.rs"]};
+createSourceSidebar();
