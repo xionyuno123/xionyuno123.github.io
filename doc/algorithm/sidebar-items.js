@@ -1,1 +1,1 @@
-initSidebarItems({});
+initSidebarItems({"fn":[["max_subarray",""]]});
