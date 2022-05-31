@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["max_subarray",""]]});
+initSidebarItems({"mod":[["divide_and_conquer","Divide-and-Conquer"],["dynamic_programming",""]]});
