@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["divide_and_conquer","Divide-and-Conquer"],["dynamic_programming",""]]});
+initSidebarItems({"mod":[["divide_and_conquer","Divide-and-Conquer"],["dynamic_programming",""],["sort",""]]});
