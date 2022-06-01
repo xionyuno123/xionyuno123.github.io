@@ -1,1 +1,1 @@
-window.ALL_CRATES = ["algorithm","asm","compiler","database","network","os","pctheory","rustl","software","sync"];
+window.ALL_CRATES = ["algorithm","asm","cfg_if","compiler","database","getrandom","lazy_static","libc","network","os","pctheory","ppv_lite86","rand","rand_chacha","rand_core","rustl","software","sync"];
