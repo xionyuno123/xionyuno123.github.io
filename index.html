@@ -1,22 +1,46 @@
-<html>
+---
+layout: page
+description: "「离开世界之前 一切都是过程」"
+---
 
-<head>
-<title>xionyuno</title>
-</head>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {% if post.lang == 'en' %}
+                {{ post.content | strip_html | truncate:300 }}
+            {% else %}
+                {{ post.content | strip_html | truncate:200 }}
+            {% endif %}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
 
-<body>
-<ol>
-	<li><a href="./doc/algorithm/index.html">algorithm</a><br></li>
-	<li><a href="./doc/software/index.html">software</a><br></li>
-	<li><a href="./doc/os/index.html">os</a><br></li>
-	<li><a href="./doc/sync/index.html">sync</a><br></li>
-	<li><a href="./doc/database/index.html">database</a><br></li>
-	<li><a href="./doc/compiler/index.html">compiler</a><br></li>
-	<li><a href="./doc/network/index.html">network</a><br></li>
-	<li><a href="./doc/pctheory/index.html">pctheory</a><br></li>
-	<li><a href="./doc/rustl/index.html">rustl</a><br></li>
-</ol>
-
-</body>
-
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
