@@ -86,7 +86,7 @@ The following are directives commonly used in the Grub configuration file:
 
 # References
 
-[1]: https://api.kde.org/frameworks/kconfig/html/ "KConfig"
+[1] https://api.kde.org/frameworks/kconfig/html/ "KConfig"
 
 
 
