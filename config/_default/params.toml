@@ -2,6 +2,7 @@
 netlify_forms = true # add data-netlify attribute to contact and newsletter forms, false to disable Netlify forms
 # gtm_id = '' # GTM tracking (leave blank to use GA)
 disallow_search_engines = false # Disallow search engine crawling in robots.txt
+seo_title = 'Blog'
 
 ### Content
 favicon = true # Enable favicon, add your favicon files to /static/ directory
@@ -14,10 +15,10 @@ fallback_text = "No content available yet. Coming soon." # Fallback text for emp
 label_drafts = true # Add a label indicator next to the title of any built drafts (dev only)
 
 # Customize newsletter text
-newsletter_header = "This is my custom newsletter header with a captivating title."
-newsletter_description = "This is my custom newsletter description that tells you why you should sign up."
-newsletter_submit = "Join now"
-global_newsletter = true # Enable newsletter site-wide
+# newsletter_header = "This is my custom newsletter header with a captivating title."
+# newsletter_description = "This is my custom newsletter description that tells you why you should sign up."
+# newsletter_submit = "Join now"
+# global_newsletter = true # Enable newsletter site-wide
 
 # CSS / JavaScript
 enable_postcss = false # Enable if you're using npm and want to utilize PostCSS processing
@@ -48,10 +49,10 @@ about_page_socials = true
 
 # Enable or disable individual social icons
 [social.links]
-  twitter = "username"
-  github = "username"
-  stack_overflow = "userid/username" # include user id
-  email = "user@example.com"
+  twitter = "xiao_yupeng"
+  github = "xionyuno123"
+  stack_overflow = "16499668/xiaoyupeng" # include user id
+  email = "xionyuno@gmail.com"
   # linkedin = "username" # Comment out to disable
   # mastodon_server = "example.social" # include subdomains if relevant, scheme not needed (defaults to https)
   # mastodon_user = "username" # don't include preceding @

@@ -1,7 +1,7 @@
 ---
-title: Jump-start your personal blog and portfolio with the Hugo Liftoff theme.
-subtitle: Minimal blog/portfolio theme with a focus on content creation and SEO best practices. An ideal choice for technical users jump-starting a personal brand.
-seo_title: Hugo Liftoff | Hugo theme for creators
+title: Pay attention to cluster scheduling for ML and share cutting-edge papers.
+subtitle: To cater to the requirements of AI application domains and drive the growth of the digital economy, there is a pressing need to expedite the establishment of AI foundational service infrastructures, commonly referred to as intelligent endogenous networks. Within this framework, a significant area of research focuses on AI orchestration, aiming to effectively distribute resources such as computational capacity, networking, and storage among various AI tasks in a streamlined manner.
+seo_title: YuPeng Xiao's Blog
 
 primary_cta_page: "about"
 secondary_cta_page: "projects"
